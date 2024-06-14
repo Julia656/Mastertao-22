@@ -1,8 +1,91 @@
-header{
-	height: 7vh;
-	padding: 15px 0;
-	background: #222;
-	a {
-		color: #fff;
-	}
+button.btn.btn-primary:hover{
+	color: #fa8500;
+    	background: #ffffff;
+        border-color: #fa8500;
 }
+
+button.btn.btn-primary.btn-lg1 {
+    padding: 13px 35px;
+}
+img.img-fluid {
+    max-width: 126px;
+}
+.nav_list {
+    width: 100%;
+    display: flex;
+
+    &.show{
+        display: flex;
+    }
+}
+a {
+    color: inherit;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-right: 10px;
+}
+.nav_list a:hover{
+    text-decoration: none;
+    color:#ffbe1a;
+}
+
+.nav_list a {
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+}
+
+.container_header {
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+header {
+    padding-left: 20px;
+    padding-right: 17px;
+    padding-top: 17px;
+}
+
+nav.nav_list {
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    gap: 34px;
+    position: relative;
+    z-index: 99;
+}
+
+ul.nav_list-list {
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    gap: 25px;
+}
+
+button.btn-burger {
+    border: none;
+}
+
+
+.nav_list{
+    display: none;
+    .show{
+        display:flex;
+    }
+}
+
+
+.btn-burger{
+    background: url(assets/img/iconburger.svg) center no-repeat;
+    padding: 19px;
+
+    &.open{
+        background: url(assets/img/iconburgerclose.svg) center no-repeat;
+    }
+}
+
+

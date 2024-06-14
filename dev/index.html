@@ -1,7 +1,230 @@
-@@include('templates/head.html')
-@@include('templates/header.html')
-<main class="wrapper home">
-    @@include('templates/first-screen.html')
-</main>
-@@include('templates/footer.html')
- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson-25</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+</head>
+<body>
+    
+</body>
+</html>
+
+<header>
+    <div class="container_header">
+        <a href="index.html">
+          <img src="assets/img/logo.png"  class="img-fluid"/>
+        </a>
+  
+        <div class="nav_section">
+            <nav class="nav_list">
+              <ul class="nav_list-list">
+              <li class="nav_list-item"><a href="#" class="nav_list-item-link">Цены и сроки</a></li>  
+              <li class="nav_list-item"><a href="#" class="nav_list-item-link">Услуги</a></li>   
+              <li class="nav_list-item"> <a href="#" class="nav_list-item-link">О компании</a></li>  
+              <li class="nav_list-item"><a href="#" class="nav_list-item-link">Контакты</a></li>  
+              <li class="nav_list-item"><a href="#" class="nav_list-item-link">Оформить груз</a></li>  
+              </ul>
+  
+              <div class="markup__btn">
+                <button type="button" class="btn btn-primary btn-lg1">Оставить заявку</button>
+            </div>
+            
+            </nav>
+            <button class="btn-burger"></button>
+        </div>
+        
+  
+    </div>
+  </header>
+
+  
+<main>
+    <div class="container">
+        <div class="row">
+<div class="col-md-4">
+    <div class="markup_color-box">
+        <h4 class="markup_title">1.Colors</h4>
+        <ul>
+      <li class="color-item color-item-1"></li>
+      <li class="color-item color-item-2"></li>
+      <li class="color-item color-item-3"></li>
+      <li class="color-item color-item-4"></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="col-md-4">
+    <div class="markup_text-box">
+<h4 class="markup_title">2.Цвет текста, шрифт bold, шрифт italic, link ::selection</h4>
+<p>
+    <a href="#">Lorem ipsum dolor </a>
+   <b> Lorem ipsum dolor sit amet consectetur adipisicing elit. </b> <i>Reprehenderit, ipsam possimus. Explicabo, nemo nobis vero minima aliquid, pariatur, possimus repudiandae voluptatum amet voluptate qui ratione tempore ipsa. Qui, iste eos.</i>
+  
+</p>
+    </div>
+</div>
+
+
+
+<div class="col-md-4">
+    <div class="markup_ol-box">
+<h4 class="markup_title">3.Нумерованый список</h4>
+<ol>
+   <li>Lorem ipsum dolor sit amet</li>
+   <li>Lorem ipsum dolor sit amet</li>
+   <li>Lorem ipsum dolor sit amet</li>
+   <li>Lorem ipsum dolor sit amet</li>
+   <li>Lorem ipsum dolor sit amet</li>
+</ol>
+    </div>
+</div>
+
+
+<div class="col-md-4">
+    <div class="markup_ol-box">
+<h4 class="markup_title">4.Нумерованый список</h4>
+<ul>
+    <li>Lorem ipsum dolor sit amet</li>
+    <li>Lorem ipsum dolor sit amet</li>
+    <li>Lorem ipsum dolor sit amet</li>
+    <li>Lorem ipsum dolor sit amet</li>
+    <li>Lorem ipsum dolor sit amet</li>
+</ul>
+    </div>
+</div>
+
+
+<div class="col-md-4">
+    <div class="markup_ol-box">
+<h4 class="markup_title">5.Font-family</h4>
+<ul>
+    <li>Proximanova</li>
+</ul>
+    </div>
+</div>
+
+<div class="col-md-4">
+    <div class="markup_ol-box">
+<h4 class="markup_title">6.Font-weight</h4>
+<ol>
+    <li class="wf_300"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptas labore deleniti, incidunt qui non!</li>
+    <li class="wf_400"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptas labore deleniti, incidunt qui non!</li>
+    <li class="wf_600"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptas labore deleniti, incidunt qui non!</li>
+    <li class="wf_700"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptas labore deleniti, incidunt qui non!</li>
+</ol>
+    </div>
+</div>
+
+
+<div class="col-md-4">
+    <div class="markup_ol-box">
+<h4 class="markup_title">7.Titles</h4>
+<h1>Lorem ipsum dolor </h1>
+<h2>Lorem ipsum dolor </h2>
+<h3>Lorem ipsum dolor </h3>
+<h4>Lorem ipsum dolor </h4>
+<h5>Lorem ipsum dolor </h5>
+<h6>Lorem ipsum dolor </h6>
+    </div>
+</div>
+
+
+<div class="col-md-4">
+    <div class="markup_ol-box">
+        <h4 class="markup_title">8. Style titles</h4>
+<div class="h1">Lorem, ipsum dolor</div>
+<div class="h2">Lorem, ipsum dolor</div>
+<div class="h3">Lorem, ipsum dolor</div>
+<div class="h4">Lorem, ipsum dolor</div>
+<div class="h5">Lorem, ipsum dolor</div>
+<div class="h6">Lorem, ipsum dolor</div>
+    </div>
+</div>
+
+
+<div class="col-md-4">
+    <div class="markup_checkbox">
+        <h4 class="markup_title">8. Checkbox, radiobutton </h4>
+<div class="check-button">
+    <input id="checkbox1"  type="checkbox"  checked name="terms1"/>
+    <label for="checkbox1">Lorem, ipsum dolor</label>
+</div>
+<div class="check-button">
+    <input id="checkbox2"  type="checkbox"  name="terms2"/>
+    <label for="checkbox2">Lorem, ipsum dolor</label>
+</div>
+<div class="check-button">
+    <input id="checkbox3"  type="checkbox"  name="terms3"/>
+    <label for="checkbox3">Lorem, ipsum dolor</label>
+</div>
+
+<br>
+
+<div class="check-button">
+    <input type="radio"  id="contactEmail" name="contact" value="email"/>
+    <label for="contactEmail">email</label>
+</div>
+
+<div class="check-button">
+    <input type="radio" id="contactlinkedin" name="contact" value="linkedin"/>
+    <label for="contactlinkedin">linkedin</label>
+</div>
+
+<div class="check-button">
+    <input type="radio"  id="contactTelegram"  name="contact" value="Telegram"/>
+    <label for="contactTelegram">Lorem, ipsum dolor</label>
+</div>
+
+    </div>
+</div>
+
+
+<div class="col-md-4">
+    <div class="markup__btn-box">
+        <h4 class="markup__title">10. button</h4>
+        <button type="button" class="btn btn-primary">Оставить заявку</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-primary btn-lg">Оставить заявку</button>
+        <button type="button" class="btn btn-secondary btn-lg">Отправить запрос</button>
+        <button type="button" class="btn btn-primary btn-lg">Рассчитать стоимость<img src="assets/img/arrow-circle-left 1.png" class="icon" alt="icon"></button>
+        <button type="button" class="btn btn-primary btn-lg">Следующий шаг<img src="assets/img/arrow-circle-left 1.png" class="icon" alt="icon"></button>
+        <button type="button" class="btn btn-primary btn-lg">Оформить груз<img src="assets/img/arrow-circle-left 1.png" class="icon" alt="icon"></button>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="markup__scroll">
+        <h4 class="markup__title">11. button</h4>
+        <div class="scroll">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi dolorum earum facilis alias reprehenderit aliquid ab consequatur deserunt laudantium aliquam quia veniam necessitatibus mollitia fuga maiores nisi quod, iure dignissimos rem porro adipisci excepturi voluptate beatae. Facilis, voluptatum! Culpa, modi vero incidunt eligendi dolor explicabo laudantium cupiditate, consequatur iste quia odio blanditiis recusandae nobis laborum asperiores tenetur quae neque! Rem ad accusantium accusamus corporis in odit maxime. Voluptate expedita culpa nulla. Suscipit nostrum impedit repellat reiciendis, eum id saepe aut ipsum assumenda quo omnis excepturi in optio porro placeat ab blanditiis quam tempora. Animi fugit, tempore, iusto quibusdam soluta dolore in eligendi obcaecati labore molestias, ullam corrupti sunt hic voluptatum eveniet? Quos cum, totam illum natus facere ipsam perspiciatis vitae error sit assumenda ab vel esse corporis dolores fugit dolorem repellendus ad architecto mollitia labore tenetur. Sequi, aut! Error a voluptatum accusamus quam quaerat nam non saepe aspernatur! Distinctio sapiente perferendis quod accusantium laudantium est adipisci voluptates. Quod magnam sed enim maiores! Doloribus consequatur ipsam ea officiis omnis commodi dicta alias aspernatur, est laboriosam reprehenderit rerum, pariatur tenetur sed. Quas dolorum quasi fugiat laudantium optio non officia deserunt autem ex eligendi nesciunt ipsa at atque, doloribus veritatis dolorem voluptas tenetur quia nam nisi? Laudantium enim rem eveniet adipisci fugiat similique odio fuga in, hic porro perspiciatis et id quae architecto quo cum nisi facere. Asperiores temporibus ipsam ab aliquid, repellat ea, commodi veniam, amet repellendus fugit iure! Voluptas vel sint eum maxime aperiam nihil officiis autem. Dolor temporibus dignissimos ipsum molestias id harum magni fuga quis voluptates accusantium cumque nulla perspiciatis recusandae mollitia nihil quo ipsa, quisquam, repellendus est maxime accusamus? Dolorem consequuntur iure nihil ex praesentium error illo, impedit nisi neque tempora modi dolores cum aspernatur odit quasi commodi itaque delectus? Quibusdam enim officiis eveniet possimus quisquam modi distinctio?
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="markup__scroll">
+        <h4 class="markup__title">12. Fancybox</h4>
+        <a data-fancybox="gallery-1" href="assets/img/images.jpg">
+        <img src="assets/img/images.jpg"  class="img-fluid"/>
+    </a>
+    </div>
+</div>
+
+
+        </div>
+    </div>
+  </main>
+  <script src="assets/js/jquery-3.7.1.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="assets/js/fancybox.min.js"></script>
+  <script src="assets/js/slick.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>

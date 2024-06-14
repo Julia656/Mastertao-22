@@ -1,4 +1,38 @@
 @media screen and (max-width: 1024px) {
-}
+    .nav_list{
+    position: absolute;
+    inset: 90px 5px 5px;
+    flex-direction: column;
+    transition: 0.3s;
+    padding: 15px 0px;
+    background-color: #363A4D;
+    .btn{
+        justify-content: center;
+        width: 100%;
+        font-size: 20px;
+        background-color: #E58D35;
+       
+    }
+    }
+    
+    .header {
+        padding: 20px 17px 17px;
+    }
 
+
+  .nav_list-list {
+        font-size: 30px;
+        flex-direction: column;
+        margin-top: 37px;
+        margin-bottom: 34px;
+    }
+    .a.nav_list-item-link{
+        font-size: 24px;
+        list-style: 222%;
+    }
+    .nav_section.show {
+        max-height: 508px;
+    }
+    
+}
 

@@ -1,3 +1,17 @@
+.nav_list{
+    display: none;
+}
+
+
 @media (min-width: 1025px) {
+.btn-burger{
+    display: none;
 
 }
+
+.nav_list{
+    display: flex;
+}
+}
+
+
